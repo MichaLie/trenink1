@@ -33,7 +33,7 @@ verse = {
 }
 nahodny_sentiment = random.choice(sentimenty)
 nahodny_vers = random.choice(verse[nahodny_sentiment])
-vers_muz = f"{muzske_jmeno} {nahodny_vers}"    #dopiš verš :-)
+vers_muz = f"{nahodny_vers}"    #dopiš verš :-)
 print(vers_muz)
 
 
