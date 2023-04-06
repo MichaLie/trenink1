@@ -7,3 +7,11 @@ print(vers_muz)
 
 vers_zena = f"{zenske_jmeno} na něj doma čeká"
 print(vers_zena)
+
+vers_zena = f"{zenske_jmeno} z okna vyhlíží"
+print(vers_zena)
+
+vers_muz = f"{muzske_jmeno} "    #dopiš verš :-)
+print(vers_muz)
+
+
