@@ -10,6 +10,7 @@ while not vstup.isnumeric():       #Spustí smyčku, která bude pokračovat, do
     vstup = input("Zadej celé číslo: ")     #uživatel zadá číslo a uloží se do proměnné vstup
 N = int(vstup)      #Převede vstup na celé číslo a uložíte do proměnné N
 
+krok = 0  # Inicializuje proměnnou krok na 0 
 while N > 1:     #Spustí smyčku, která bude pokračovat, dokud nebude N rovno nebo menší než 1.
     for krok, _ in enumerate(range(N)):    #zahajuje cyklus for uvnitř cyklu while, fce enumerate() společně s range(N) pro získání indexu (krok) a hodnoty prvků (ignoruje pomocí podtržítka _)
         if N % 2 == 0:     #kontroluje, zda N sudé, pokud ano, pak provede následující blok kódu 
